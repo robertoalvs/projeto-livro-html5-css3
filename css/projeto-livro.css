@@ -44,10 +44,13 @@ body {
     background-color: white;
 }
 
+
+/* ====================== header ============================== */
+
 header {
 
     margin-bottom: 20px;
-    border-bottom: 2px dotted var(--color1);
+    border-bottom: 2px dotted var(--color2);
     padding-top: 20px;
 }
 
@@ -66,9 +69,7 @@ span {
     font-size: small;
     padding-left: 10px;
     margin-bottom: 10px;
-
 }
-
 
 #navegacao {
 
@@ -83,7 +84,7 @@ nav ul > li {
     margin-right: 20px;
     margin-bottom: 7px;
     padding: 10px;
-
+    list-style: none;
 }
 
 form {
@@ -93,6 +94,10 @@ form {
     right: 0;
     margin-right: 20px;
 }
+/* ====================== FIM - header - form - log - span  ============================== */
+
+
+/* ====================== sessões do - main ============================== */
 
 main {
 
@@ -101,23 +106,93 @@ main {
     
 }
 
+h2 {
+
+    margin-bottom: 20px;
+}
+
+section p {
+
+    margin-top: 20px;
+    padding: 10px 10px 10px 15px;
+    border-right: 2px dotted var(--color2);
+}
+
+section .img1 {
+
+    float: left;
+    margin-right: 5px;
+}
+
+section .img2 {
+
+    float: left;
+    margin-right: 5px;
+}
+
+section .cont1 {
+
+    text-align: end;
+    font-size: small;
+    margin-top: -5px;
+}
+
+section .cont {
+
+    text-align: end;
+    font-size: small;
+    margin-top: -5px;
+}
+/* ====================== FIM - sessões do main ============================== */
+
+
+/* ====================== aside - barra lateral ============================== */
 #sidebar {
 
     margin-left: 72%;
     background-color: var(--color5);
-    font-size: .85em;
+    font-size: .75em;
     padding: 5px;
     margin-right: 10px;
+    font-style: italic;
 }
 
+#sidebar >ol li {
+
+    text-align: end;
+    list-style: none;
+}
+
+#sidebar img {
+
+    float: left;
+    margin-right: 4px;
+    margin-bottom: 3px;
+    margin-top: 6px;
+}
+
+#sidebar p {
+
+    padding: 5px;
+}
+/* ====================== FIM - barra lateral ============================== */
+
+
+/* ====================== aside 2  ============================== */
 #sidebar2 {
 
     margin: 20px 10px;
-    background-color: #e6c9b463;
+    background-image: linear-gradient(to right, #e6c9b463, var(--color5));
+   /* background-color: #e6c9b463; */
     padding: 10px;
     clear: both;
     border-radius: 10px;
     
+}
+#sidebar2 p {
+
+    margin-left: 20px;
+    padding: 10px 20px 0 0;
 }
 
 #border {
@@ -125,6 +200,25 @@ main {
     border-top: 2px dotted var(--color2);
     margin: 10px;
 }
+
+.fotoaside2 {
+
+    float: left;
+    margin-top: 10px;
+}
+
+#sidebar2 >ul {
+
+    columns: 2;
+    list-style-position: inside;
+    
+}
+#sidebar2 .liaside {
+
+      padding-left: 114px;
+}
+/* ====================== FIM - aside2 ============================== */
+
 
 footer {
 
@@ -134,3 +228,4 @@ footer {
     clear: both;
     margin: 10px;
 }
+
