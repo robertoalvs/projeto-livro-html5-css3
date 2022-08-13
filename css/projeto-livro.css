@@ -143,6 +143,26 @@ section .cont {
     font-size: small;
     margin-top: -5px;
 }
+
+#iframe {
+
+    border: 1px solid var(--color1);
+    width: 30vw;
+    height: 10vh;
+    margin-left: 12px;
+    border-radius: 5px;
+}
+
+.uliframe {
+
+    position: absolute;
+    top: 7px;
+}
+
+.uliframe li {
+
+    list-style: none;
+}
 /* ====================== FIM - sessões do main ============================== */
 
 
