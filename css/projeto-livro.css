@@ -148,21 +148,23 @@ section .cont {
 
     border: 1px solid var(--color1);
     width: 30vw;
-    height: 10vh;
+    height: 16vh;
     margin-left: 12px;
     border-radius: 5px;
+    display: block;
+    margin-bottom: 10px;
 }
 
 .uliframe {
 
-    position: absolute;
-    top: 7px;
-}
-
-.uliframe li {
-
+    float: right;
+    position: relative;
+    left: 50px;
     list-style: none;
+    margin-top: 13px;
 }
+
+
 /* ====================== FIM - sessões do main ============================== */
 
 
