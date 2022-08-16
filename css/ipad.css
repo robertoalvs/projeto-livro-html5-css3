@@ -11,6 +11,7 @@ div#extra {
     background: url('../pacote-d013/imagens/fundo-madeira.jpg') no-repeat top center;
     background-attachment: fixed;
     margin: 10px;
+
 }
 
 
@@ -36,6 +37,7 @@ section#ipad {
     width: 320px;
     height: 245px;
     background: url('../img/tablet-png-2.png') no-repeat;
+    margin-left: 5vw;
 }
 
 iframe#tela {
