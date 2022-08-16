@@ -179,49 +179,6 @@ section .cont {
 /* ====================== FIM - barra lateral ============================== */
 
 
-/* ====================== aside 2  ============================== 
-
-#sidebar2 {
-
-    margin: 20px 10px;
-    background-image: linear-gradient(to right, #e6c9b463, var(--color5));
-    background-color: #e6c9b463;
-    padding: 10px;
-    clear: both;
-    border-radius: 10px;
-    
-}
-#sidebar2 p {
-
-    margin-left: 20px;
-    padding: 10px 20px 0 0;
-}
-
-#border {
-
-    border-top: 2px dotted var(--color2);
-    margin: 10px;
-}
-
-.fotoaside2 {
-
-    float: left;
-    margin-top: 10px;
-}
-
-#sidebar2 >ul {
-
-    columns: 2;
-    list-style-position: inside;
-    
-}
-#sidebar2 .liaside {
-
-      padding-left: 114px;
-}
- ====================== FIM - aside2 ============================== */
-
-
 footer {
 
     background-color: #96a7c462;
