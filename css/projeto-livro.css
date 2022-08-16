@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
 * {
     margin: 0;
@@ -13,6 +14,7 @@
    --color4: #f3cfb6;
    --color5: #f5f8fa;
    --color6: #fef6f8;
+   --fonte-google: 'Architects Daughter', cursive;
 }
 
 /* Contain floats: h5bp.com/q */
@@ -120,12 +122,12 @@ main {
 
     width: 70%;
     float: left;
-    
 }
 
 h2 {
 
     margin-bottom: 20px;
+    padding: 10px;
 }
 
 section.sec1 {
@@ -133,12 +135,16 @@ section.sec1 {
     background: url('../pacote-d013/imagens/fundo-madeira.jpg') no-repeat top center ;
     background-attachment: fixed;
     color: white;
+    
 }
+
 section p {
 
     margin-top: 20px;
     padding: 10px 10px 10px 15px;
-    border-right: 2px dotted var(--color2);
+    font-family: var(--fonte-google);
+    font-size: 1em;
+    
 }
 
 section .img1 {
