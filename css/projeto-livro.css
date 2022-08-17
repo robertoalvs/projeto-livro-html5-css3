@@ -22,6 +22,12 @@
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
 
+::-webkit-scrollbar {
+
+    width: 0;
+    height: 0;
+}
+
 body {
 
     font-family: "Trebuchet MS", Verdana, sans-serif;
@@ -32,10 +38,10 @@ body {
 
     max-width: 950px;
     width: 90%;
-    background-image: url(../img/original-rsa-pc-gamer.png);
+    background-image: url('../img/fundo-fotografico-em-tecido-madeira-rustica-2-60x1-50m-sublimacao.jpg');
     padding: 30px 0 0 0;
     margin: 20px auto;
-    background-position: center right;
+    background-position: left bottom;
     background-attachment: fixed;
 }
 
@@ -132,9 +138,10 @@ h2 {
 
 section.sec1 {
 
-    background: url('../pacote-d013/imagens/fundo-madeira.jpg') no-repeat top center ;
+    background: url('../img/fundo-fotografico-em-tecido-madeira-rustica-2-60x1-50m-sublimacao.jpg') no-repeat top center ;
     background-attachment: fixed;
     color: white;
+    box-shadow: 2px 2px 10px black;
     
 }
 
