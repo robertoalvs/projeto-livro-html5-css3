@@ -1,5 +1,13 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@font-face {
+
+    font-family: 'steelfish';
+    src: url('../fontes-locais/steelfish\ rg.otf') format('opentype');
+    font-weight: normal;
+}
 
 * {
     margin: 0;
@@ -15,6 +23,8 @@
    --color5: #f5f8fa;
    --color6: #fef6f8;
    --fonte-google: 'Architects Daughter', cursive;
+   --fonte-google-2: 'Permanent Marker', cursive;
+   --fonte-local: 'steelfish', cursive;
 }
 
 /* Contain floats: h5bp.com/q */
@@ -149,8 +159,8 @@ section p {
 
     margin-top: 20px;
     padding: 10px 10px 10px 15px;
-    font-family: var(--fonte-google);
-    font-size: 1em;
+    font-family: var(--fonte-local);
+    font-size: 1.5em;
     
 }
 
@@ -179,7 +189,6 @@ section .cont {
     font-size: small;
     margin-top: -5px;
 }
-
 /* ====================== FIM - sessões do main ============================== */
 
 
@@ -213,6 +222,7 @@ section .cont {
 
     padding: 5px;
 }
+
 /* ====================== FIM - barra lateral ============================== */
 
 
