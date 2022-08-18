@@ -137,9 +137,15 @@ form .senha {
     margin-left: 11px;
 }
 
-form > p .limpar. .enviar {
+div#enviar-limpar {
 
-    padding-left: 50px;
+    text-align: end;
+}
+
+form > div .enviar {
+
+    margin-right: 23px;
+    margin-top: 5px;
 }
 
 /* ====================== FIM - header - form - log - span  ============================== */
