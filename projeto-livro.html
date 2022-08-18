@@ -38,8 +38,27 @@
 
                     </nav>
 
-                    <form method="get" role="search"><label for="search">Search:</label><input type="text" name="search" id="Procurar" maxlength="100" placeholder="master system, Snes, etc." /><input type="submit" value="ir" title="Submit search" />
-                     </form>
+                    <form action="banco-de-dados.php" method="post">
+
+                        
+                            <div>
+                                <label for="usuario">Usuário:</label>
+                                <input type="text" name="user" id="usuario" placeholder="Digite seu Usuário" minlength="5" maxlength="15" size="15" autocomplete="username">
+                            </div>
+                        
+                            <div>
+                                <label for="password">Senha:</label>
+                                <input class="senha" type="password" name="senha" id="password" placeholder="Digite sua Senha" minlength="8" size="15" autocomplete="current-password">
+                            </div>
+                        
+                        
+                            <div>
+                                <input class="enviar" type="submit" value="Enviar">
+                                <input class="limpar" type="reset" value="Limpar">
+                            </div>
+                        
+
+                    </form>
 
                 </div>
 
