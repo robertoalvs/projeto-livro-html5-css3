@@ -44,6 +44,7 @@ body {
 
     font-family: "Trebuchet MS", Verdana, sans-serif;
     padding-bottom: 15px;
+    /* background-color: #fef6f82f; */
 }
 
 #container {
@@ -58,11 +59,13 @@ body {
     
 }
 
-#pagina {
+div#pagina {
 
     max-width: 940px;
     width: 97.600%;
     background-color: white;
+    background-image: linear-gradient(to right, #f6e2e718, #96c2e03b);
+    
 }
 
 
@@ -220,6 +223,26 @@ section .cont {
 /* ====================== FIM - sessões do main ============================== */
 
 
+/* ============== Links ====== 
+.sec1 a, .sec2 a, #sidebar a, #extra a, footer a {
+
+    text-decoration: none;
+    font-style: italic;
+    color: var(--color3);
+    box-sizing: content-box;
+}
+
+.sec1 a:hover, .sec2 a:hover, #sidebar a:hover, #extra a:hover, footer a:hover {
+
+    background-color: #f3cfb666;
+    border-radius: 4px;
+    padding: 5px;
+    box-sizing: content-box;
+    
+}
+/* ====================fim links======================*/
+
+
 /* ====================== aside - barra lateral ============================== */
 #sidebar {
 
@@ -236,6 +259,7 @@ section .cont {
 
     text-align: end;
     list-style: none;
+    margin-bottom: 2px;
 }
 
 #sidebar img {
@@ -256,7 +280,7 @@ section .cont {
 
 footer {
 
-    background-color: #96a7c462;
+    background-color: var(--color5);
     padding: 10px;
     font-size: .75em;
     clear: both;
