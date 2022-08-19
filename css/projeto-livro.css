@@ -71,6 +71,7 @@ header {
     margin-bottom: 20px;
     border-bottom: 2px dotted var(--color2);
     padding-top: 20px;
+    
 }
 
 .logo {
@@ -79,6 +80,7 @@ header {
     font-size: 2.5em;
     margin-top: -17px;
     font-weight: bolder;
+    margin-top: 5px;
 }
 
 span {
@@ -127,7 +129,7 @@ nav > ul > li img:hover {
 form {
 
     position: absolute;
-    top: -16px;
+    top: -14px;
     right: 0;
     margin-right: 20px;
 }
