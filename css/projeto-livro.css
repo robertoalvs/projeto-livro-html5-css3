@@ -223,7 +223,7 @@ section .cont {
 /* ====================== FIM - sessões do main ============================== */
 
 
-/* ============== Links ====== 
+/* ============== Links ====== */
 .sec1 a, .sec2 a, #sidebar a, #extra a, footer a {
 
     text-decoration: none;
