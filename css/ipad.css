@@ -47,7 +47,6 @@ section#ipad {
     height: 245px;
     background: url('../img/tablet-png-2.png') no-repeat;
     margin-left: 16vw;
-
 }
 
 iframe#tela {
@@ -58,3 +57,4 @@ iframe#tela {
     width: 255px;
     height: 190px;
 }
+

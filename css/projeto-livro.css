@@ -342,3 +342,7 @@ footer {
     margin: 10px;
 }
 
+iframe {
+
+    border: 0;
+}
