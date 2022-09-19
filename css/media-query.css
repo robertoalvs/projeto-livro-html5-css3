@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-aside#sidebar .media-query {
+/* aside#sidebar .media-query {
 
 display: none;
 
@@ -25,5 +25,21 @@ form {
     
     margin-top: 6px;
   
-}
+} */
     
+@media screen and (min-width: 500px ){
+    
+    .media-query {
+
+        display: none;
+    }
+    div#extra {
+
+        margin-top: 73px;
+    }
+
+    p.cont1 {
+
+        margin-top: -10px;
+    }
+}
