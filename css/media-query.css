@@ -29,7 +29,7 @@ form {
 
 
 
-@media screen and (min-width: 360px) and (max-width: 736px ) and (orientation: portrait) {
+ /* @media screen and (min-width: 360px) and (max-width: 736px ) and (orientation: portrait) {
     
     aside#sidebar p.media-query {
 
@@ -115,6 +115,6 @@ form {
 
         div#extra {
 
-            margin-top: 50px;
+            margin-top: 50px; 
         }
-}
+} */
