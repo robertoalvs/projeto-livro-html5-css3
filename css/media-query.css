@@ -9,10 +9,11 @@ display: none;
 iframe#tela {
 
     position: relative;
-    top: 31px;
+    top: 30px;
     left: 31px;
     width: 255px;
     height: 190px;
+    
 }
 
 section p {
@@ -24,6 +25,83 @@ section p {
 form {
     
     margin-top: 6px;
-  
 }
+
+
+
+
+@media screen and (min-width: 360px) and (max-width: 736px ) and (orientation: portrait) {
     
+    aside#sidebar p.media-query {
+
+        display: none;
+        
+        }
+
+        section#ipad {
+
+            width: 320px;
+            height: 245px;
+            margin-left: 43px;
+        }
+
+        div#extra {
+
+            width: 360px;
+        }
+
+        section#sociais {
+ 
+            margin-left: 8px;
+        }
+
+        iframe#tela {
+
+            left: 31px;
+        }
+
+        footer {
+
+            width: 350px;
+            text-align: center;
+        }
+
+
+        #container {
+
+            width: 65vh;
+        }
+}
+
+
+
+
+@media screen and (max-width: 768px) and (orientation: portrait){
+    
+    div#extra {
+        margin-top: 149px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1366px) and (orientation: portrait) {
+
+    
+    #container, #pagina {
+
+        height: 90vh;
+    }
+
+    aside#sidebar .media-query {
+
+        display: list-item;
+        
+        }
+
+        div#extra {
+
+            margin-top: 50px;
+        }
+}
