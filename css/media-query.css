@@ -42,11 +42,13 @@ form {
             width: 320px;
             height: 245px;
             margin-left: 43px;
+            margin-top: 200px;
         }
 
         div#extra {
 
             width: 360px;
+           
         }
 
         section#sociais {
@@ -66,9 +68,21 @@ form {
         }
 
 
-        #container {
+        div#container {
 
-            width: 65vh;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        aside#sidebar > p {
+
+            font-size: 10px;
+        }
+
+        section.sec1 >p, section.sec2 >p {
+
+            font-size: .9em;
+    
         }
 }
 
