@@ -1,33 +1,5 @@
 @charset "UTF-8";
 
-/* aside#sidebar .media-query {
-
-display: none;
-
-}
-
-iframe#tela {
-
-    position: relative;
-    top: 30px;
-    left: 31px;
-    width: 255px;
-    height: 190px;
-    
-}
-
-section p {
-
-    font-size: 0.905em;
-}
-
-
-form {
-    
-    margin-top: 6px;
-} */
-
-
 
 @media screen and (min-width: 360px) and (max-width: 736px ) and (orientation: portrait) {
     
@@ -104,3 +76,31 @@ form {
             margin-top: 50px;
         }
 }
+
+
+aside#sidebar .media-query {
+
+    display: none;
+    
+    }
+    
+    iframe#tela {
+    
+        position: relative;
+        top: 30px;
+        left: 31px;
+        width: 255px;
+        height: 190px;
+        
+    }
+    
+    section p {
+    
+        font-size: 0.905em;
+    }
+    
+    
+    form {
+        
+        margin-top: 6px;
+    }
